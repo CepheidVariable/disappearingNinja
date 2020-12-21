@@ -3,3 +3,46 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background: url(./assets/dirt.png) repeat fixed;
+    background-size: auto;
+}
+#wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#onoff{
+    width: 1880px;
+    height: 300px;
+    padding-top: 40px;
+    display: inline-block;
+    text-align: center;
+}
+#onoff img{
+    width: 256px;
+    height: 256px;
+    margin: 0 60px;
+    border: 5px double darkslategrey;
+}
+#grid{
+    width: 1880px;
+    height: auto;
+    margin-top: 200px;
+    padding: 20px;
+    background: url(./assets/background.png) repeat;
+    background-size: auto;
+    box-shadow: 5px 5px 15px 5px #000000;
+    display: grid;
+    grid-template-columns: 600px 600px 600px;
+    grid-template-rows: 336px 336px;
+    gap: 20px;
+}
+#grid div{
+    width: 600px;
+    height: 336px;
+}
+#grid div img{
+    width: 600px;
+    height: auto;
+}
